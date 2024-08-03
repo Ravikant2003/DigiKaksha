@@ -1,0 +1,2700 @@
+[{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be353"
+  },
+  "usn": "1DS22CS043",
+  "name": "Veronica Williams",
+  "age": 18,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 82,
+    "IDS": 78,
+    "DBMS": 98,
+    "DAA": 83,
+    "CN": 71,
+    "MONGODB": 71
+  },
+  "attendance_percentage": {
+    "MATHS": 84,
+    "IDS": 54.6,
+    "DBMS": 71.7,
+    "DAA": 88.5,
+    "CN": 55.4,
+    "MONGODB": 99.3
+  },
+  "total_marks": 483,
+  "total_attendance_percentage": 75.6
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be354"
+  },
+  "usn": "1DS22CS098",
+  "name": "Michael Bailey",
+  "age": 22,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 78,
+    "IDS": 92,
+    "DBMS": 64,
+    "DAA": 96,
+    "CN": 74,
+    "MONGODB": 69
+  },
+  "attendance_percentage": {
+    "MATHS": 83.5,
+    "IDS": 60.3,
+    "DBMS": 71.4,
+    "DAA": 73.2,
+    "CN": 77.2,
+    "MONGODB": 82
+  },
+  "total_marks": 473,
+  "total_attendance_percentage": 74.6
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be355"
+  },
+  "usn": "1DS22CD076",
+  "name": "Carl Day",
+  "age": 21,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 85,
+    "IDS": 92,
+    "DBMS": 80,
+    "DAA": 91,
+    "CN": 80,
+    "MONGODB": 93
+  },
+  "attendance_percentage": {
+    "MATHS": 69.2,
+    "IDS": 75.6,
+    "DBMS": 84.6,
+    "DAA": 99.6,
+    "CN": 66.3,
+    "MONGODB": 92.6
+  },
+  "total_marks": 521,
+  "total_attendance_percentage": 81.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be356"
+  },
+  "usn": "1DS22CD039",
+  "name": "Taylor Cole",
+  "age": 23,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 83,
+    "IDS": 100,
+    "DBMS": 85,
+    "DAA": 71,
+    "CN": 78,
+    "MONGODB": 70
+  },
+  "attendance_percentage": {
+    "MATHS": 97.1,
+    "IDS": 56.6,
+    "DBMS": 78,
+    "DAA": 77.2,
+    "CN": 85.8,
+    "MONGODB": 81.2
+  },
+  "total_marks": 487,
+  "total_attendance_percentage": 79.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be357"
+  },
+  "usn": "1DS22IS015",
+  "name": "Rachel Werner",
+  "age": 22,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 65,
+    "IDS": 69,
+    "DBMS": 100,
+    "DAA": 100,
+    "CN": 99,
+    "MONGODB": 72
+  },
+  "attendance_percentage": {
+    "MATHS": 56.5,
+    "IDS": 63.8,
+    "DBMS": 94.7,
+    "DAA": 73.1,
+    "CN": 66.9,
+    "MONGODB": 54.8
+  },
+  "total_marks": 505,
+  "total_attendance_percentage": 68.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be358"
+  },
+  "usn": "1DS22CS084",
+  "name": "Brian Thornton",
+  "age": 18,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 63,
+    "IDS": 60,
+    "DBMS": 73,
+    "DAA": 64,
+    "CN": 67,
+    "MONGODB": 89
+  },
+  "attendance_percentage": {
+    "MATHS": 89.1,
+    "IDS": 66.5,
+    "DBMS": 58.6,
+    "DAA": 64.7,
+    "CN": 71.1,
+    "MONGODB": 53.1
+  },
+  "total_marks": 416,
+  "total_attendance_percentage": 67.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be359"
+  },
+  "usn": "1DS22CY061",
+  "name": "Christopher Woods",
+  "age": 18,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 68,
+    "IDS": 83,
+    "DBMS": 63,
+    "DAA": 66,
+    "CN": 92,
+    "MONGODB": 65
+  },
+  "attendance_percentage": {
+    "MATHS": 56.1,
+    "IDS": 70.4,
+    "DBMS": 75.9,
+    "DAA": 80.4,
+    "CN": 76.8,
+    "MONGODB": 59.7
+  },
+  "total_marks": 437,
+  "total_attendance_percentage": 69.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be35a"
+  },
+  "usn": "1DS22CS033",
+  "name": "Jessica Jones",
+  "age": 21,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 64,
+    "IDS": 65,
+    "DBMS": 85,
+    "DAA": 98,
+    "CN": 67,
+    "MONGODB": 62
+  },
+  "attendance_percentage": {
+    "MATHS": 55.3,
+    "IDS": 66.5,
+    "DBMS": 65.7,
+    "DAA": 56.4,
+    "CN": 83.9,
+    "MONGODB": 80.2
+  },
+  "total_marks": 441,
+  "total_attendance_percentage": 68
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be35b"
+  },
+  "usn": "1DS22CD060",
+  "name": "Joshua Jones",
+  "age": 24,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 95,
+    "IDS": 97,
+    "DBMS": 98,
+    "DAA": 64,
+    "CN": 82,
+    "MONGODB": 68
+  },
+  "attendance_percentage": {
+    "MATHS": 94.3,
+    "IDS": 71.9,
+    "DBMS": 57.2,
+    "DAA": 79.8,
+    "CN": 99.6,
+    "MONGODB": 94.6
+  },
+  "total_marks": 504,
+  "total_attendance_percentage": 82.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be35c"
+  },
+  "usn": "1DS22CD010",
+  "name": "Bryan Bryan",
+  "age": 18,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 60,
+    "IDS": 64,
+    "DBMS": 80,
+    "DAA": 99,
+    "CN": 76,
+    "MONGODB": 71
+  },
+  "attendance_percentage": {
+    "MATHS": 83.4,
+    "IDS": 77.2,
+    "DBMS": 56.2,
+    "DAA": 51.5,
+    "CN": 83,
+    "MONGODB": 60
+  },
+  "total_marks": 450,
+  "total_attendance_percentage": 68.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be35d"
+  },
+  "usn": "1DS22IS083",
+  "name": "Frank Douglas",
+  "age": 24,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 60,
+    "IDS": 69,
+    "DBMS": 84,
+    "DAA": 72,
+    "CN": 99,
+    "MONGODB": 62
+  },
+  "attendance_percentage": {
+    "MATHS": 61.5,
+    "IDS": 53.7,
+    "DBMS": 72.1,
+    "DAA": 53.4,
+    "CN": 99.9,
+    "MONGODB": 87.6
+  },
+  "total_marks": 446,
+  "total_attendance_percentage": 71.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be35e"
+  },
+  "usn": "1DS22CY045",
+  "name": "John Simmons",
+  "age": 18,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 99,
+    "IDS": 85,
+    "DBMS": 73,
+    "DAA": 75,
+    "CN": 98,
+    "MONGODB": 83
+  },
+  "attendance_percentage": {
+    "MATHS": 88.2,
+    "IDS": 97.9,
+    "DBMS": 88.2,
+    "DAA": 95.9,
+    "CN": 79.4,
+    "MONGODB": 75.5
+  },
+  "total_marks": 513,
+  "total_attendance_percentage": 87.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be35f"
+  },
+  "usn": "1DS22CY092",
+  "name": "Steven Martinez",
+  "age": 20,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 99,
+    "IDS": 84,
+    "DBMS": 79,
+    "DAA": 98,
+    "CN": 82,
+    "MONGODB": 94
+  },
+  "attendance_percentage": {
+    "MATHS": 57.5,
+    "IDS": 96.4,
+    "DBMS": 60.3,
+    "DAA": 76.2,
+    "CN": 82.1,
+    "MONGODB": 60.6
+  },
+  "total_marks": 536,
+  "total_attendance_percentage": 72.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be360"
+  },
+  "usn": "1DS22IS046",
+  "name": "Christine Stokes",
+  "age": 23,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 90,
+    "IDS": 61,
+    "DBMS": 64,
+    "DAA": 90,
+    "CN": 67,
+    "MONGODB": 73
+  },
+  "attendance_percentage": {
+    "MATHS": 89.9,
+    "IDS": 74.3,
+    "DBMS": 88.6,
+    "DAA": 96.7,
+    "CN": 91.1,
+    "MONGODB": 99.7
+  },
+  "total_marks": 445,
+  "total_attendance_percentage": 90
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be361"
+  },
+  "usn": "1DS22CD025",
+  "name": "Danny Mckenzie",
+  "age": 23,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 71,
+    "IDS": 61,
+    "DBMS": 90,
+    "DAA": 61,
+    "CN": 81,
+    "MONGODB": 64
+  },
+  "attendance_percentage": {
+    "MATHS": 89.2,
+    "IDS": 80.3,
+    "DBMS": 89.6,
+    "DAA": 93,
+    "CN": 56.8,
+    "MONGODB": 85.4
+  },
+  "total_marks": 428,
+  "total_attendance_percentage": 82.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be362"
+  },
+  "usn": "1DS22IS072",
+  "name": "Javier Harris",
+  "age": 25,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 70,
+    "IDS": 65,
+    "DBMS": 69,
+    "DAA": 65,
+    "CN": 88,
+    "MONGODB": 88
+  },
+  "attendance_percentage": {
+    "MATHS": 60.8,
+    "IDS": 65.8,
+    "DBMS": 55.9,
+    "DAA": 93.3,
+    "CN": 55.5,
+    "MONGODB": 57.5
+  },
+  "total_marks": 445,
+  "total_attendance_percentage": 64.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be363"
+  },
+  "usn": "1DS22CS010",
+  "name": "Bradley Grant",
+  "age": 23,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 90,
+    "IDS": 90,
+    "DBMS": 61,
+    "DAA": 78,
+    "CN": 62,
+    "MONGODB": 89
+  },
+  "attendance_percentage": {
+    "MATHS": 64,
+    "IDS": 50,
+    "DBMS": 66.2,
+    "DAA": 96.5,
+    "CN": 78.2,
+    "MONGODB": 52.9
+  },
+  "total_marks": 470,
+  "total_attendance_percentage": 68
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be364"
+  },
+  "usn": "1DS22CY055",
+  "name": "Anne Morris",
+  "age": 19,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 100,
+    "IDS": 96,
+    "DBMS": 79,
+    "DAA": 84,
+    "CN": 69,
+    "MONGODB": 77
+  },
+  "attendance_percentage": {
+    "MATHS": 84.6,
+    "IDS": 51.5,
+    "DBMS": 57.9,
+    "DAA": 99.4,
+    "CN": 93.4,
+    "MONGODB": 76.3
+  },
+  "total_marks": 505,
+  "total_attendance_percentage": 77.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be365"
+  },
+  "usn": "1DS22CY051",
+  "name": "Audrey Owen",
+  "age": 20,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 98,
+    "IDS": 96,
+    "DBMS": 78,
+    "DAA": 79,
+    "CN": 64,
+    "MONGODB": 85
+  },
+  "attendance_percentage": {
+    "MATHS": 83.8,
+    "IDS": 74.3,
+    "DBMS": 82.2,
+    "DAA": 83.3,
+    "CN": 76.1,
+    "MONGODB": 55.3
+  },
+  "total_marks": 500,
+  "total_attendance_percentage": 75.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be366"
+  },
+  "usn": "1DS22CD081",
+  "name": "William Lambert",
+  "age": 20,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 94,
+    "IDS": 92,
+    "DBMS": 72,
+    "DAA": 78,
+    "CN": 64,
+    "MONGODB": 68
+  },
+  "attendance_percentage": {
+    "MATHS": 77.1,
+    "IDS": 72.8,
+    "DBMS": 52.3,
+    "DAA": 98.1,
+    "CN": 98.4,
+    "MONGODB": 75.9
+  },
+  "total_marks": 468,
+  "total_attendance_percentage": 79.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be367"
+  },
+  "usn": "1DS22CS061",
+  "name": "Gabrielle Woods",
+  "age": 25,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 65,
+    "IDS": 69,
+    "DBMS": 81,
+    "DAA": 91,
+    "CN": 88,
+    "MONGODB": 73
+  },
+  "attendance_percentage": {
+    "MATHS": 58.7,
+    "IDS": 92.8,
+    "DBMS": 80.1,
+    "DAA": 67.4,
+    "CN": 92.9,
+    "MONGODB": 89.5
+  },
+  "total_marks": 467,
+  "total_attendance_percentage": 80.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be368"
+  },
+  "usn": "1DS22CS033",
+  "name": "Abigail Dean",
+  "age": 24,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 69,
+    "IDS": 78,
+    "DBMS": 82,
+    "DAA": 81,
+    "CN": 99,
+    "MONGODB": 61
+  },
+  "attendance_percentage": {
+    "MATHS": 71.6,
+    "IDS": 89.2,
+    "DBMS": 54.2,
+    "DAA": 99,
+    "CN": 65.1,
+    "MONGODB": 89.1
+  },
+  "total_marks": 470,
+  "total_attendance_percentage": 78
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be369"
+  },
+  "usn": "1DS22CS035",
+  "name": "Mark Velez",
+  "age": 18,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 69,
+    "IDS": 81,
+    "DBMS": 67,
+    "DAA": 83,
+    "CN": 79,
+    "MONGODB": 82
+  },
+  "attendance_percentage": {
+    "MATHS": 70.6,
+    "IDS": 74.8,
+    "DBMS": 51,
+    "DAA": 55.2,
+    "CN": 78.3,
+    "MONGODB": 59.1
+  },
+  "total_marks": 461,
+  "total_attendance_percentage": 64.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be36a"
+  },
+  "usn": "1DS22CY094",
+  "name": "Corey Williams",
+  "age": 24,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 71,
+    "IDS": 88,
+    "DBMS": 75,
+    "DAA": 77,
+    "CN": 83,
+    "MONGODB": 76
+  },
+  "attendance_percentage": {
+    "MATHS": 81.9,
+    "IDS": 64.1,
+    "DBMS": 88.8,
+    "DAA": 59.8,
+    "CN": 90.7,
+    "MONGODB": 84.9
+  },
+  "total_marks": 470,
+  "total_attendance_percentage": 78.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be36b"
+  },
+  "usn": "1DS22CS076",
+  "name": "Heather Torres",
+  "age": 24,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 85,
+    "IDS": 82,
+    "DBMS": 68,
+    "DAA": 61,
+    "CN": 100,
+    "MONGODB": 92
+  },
+  "attendance_percentage": {
+    "MATHS": 94.4,
+    "IDS": 91.9,
+    "DBMS": 79.5,
+    "DAA": 77.2,
+    "CN": 82.7,
+    "MONGODB": 91.1
+  },
+  "total_marks": 488,
+  "total_attendance_percentage": 86.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be36c"
+  },
+  "usn": "1DS22CS083",
+  "name": "Daniel Wheeler",
+  "age": 25,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 88,
+    "IDS": 70,
+    "DBMS": 92,
+    "DAA": 77,
+    "CN": 89,
+    "MONGODB": 61
+  },
+  "attendance_percentage": {
+    "MATHS": 61.7,
+    "IDS": 58.6,
+    "DBMS": 69.2,
+    "DAA": 68.2,
+    "CN": 74.8,
+    "MONGODB": 83.9
+  },
+  "total_marks": 477,
+  "total_attendance_percentage": 69.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be36d"
+  },
+  "usn": "1DS22CD092",
+  "name": "George Brown",
+  "age": 18,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 94,
+    "IDS": 65,
+    "DBMS": 76,
+    "DAA": 96,
+    "CN": 83,
+    "MONGODB": 81
+  },
+  "attendance_percentage": {
+    "MATHS": 73,
+    "IDS": 78.5,
+    "DBMS": 81.4,
+    "DAA": 74.8,
+    "CN": 85.5,
+    "MONGODB": 86.9
+  },
+  "total_marks": 495,
+  "total_attendance_percentage": 80
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be36e"
+  },
+  "usn": "1DS22CY055",
+  "name": "Jennifer Jones",
+  "age": 22,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 88,
+    "IDS": 68,
+    "DBMS": 94,
+    "DAA": 86,
+    "CN": 60,
+    "MONGODB": 80
+  },
+  "attendance_percentage": {
+    "MATHS": 61.8,
+    "IDS": 75.9,
+    "DBMS": 80.1,
+    "DAA": 69.4,
+    "CN": 76.2,
+    "MONGODB": 97.8
+  },
+  "total_marks": 476,
+  "total_attendance_percentage": 76.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be36f"
+  },
+  "usn": "1DS22IS094",
+  "name": "Brian Harris",
+  "age": 21,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 85,
+    "IDS": 68,
+    "DBMS": 75,
+    "DAA": 94,
+    "CN": 64,
+    "MONGODB": 77
+  },
+  "attendance_percentage": {
+    "MATHS": 94.5,
+    "IDS": 87.5,
+    "DBMS": 98.3,
+    "DAA": 90.7,
+    "CN": 84.1,
+    "MONGODB": 80.7
+  },
+  "total_marks": 463,
+  "total_attendance_percentage": 89.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be370"
+  },
+  "usn": "1DS22CD043",
+  "name": "Danielle Rodriguez",
+  "age": 20,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 92,
+    "IDS": 74,
+    "DBMS": 85,
+    "DAA": 83,
+    "CN": 95,
+    "MONGODB": 61
+  },
+  "attendance_percentage": {
+    "MATHS": 89.3,
+    "IDS": 73.4,
+    "DBMS": 72.4,
+    "DAA": 60.3,
+    "CN": 52,
+    "MONGODB": 96.5
+  },
+  "total_marks": 490,
+  "total_attendance_percentage": 74
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be371"
+  },
+  "usn": "1DS22CD088",
+  "name": "Mariah Jones",
+  "age": 23,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 72,
+    "IDS": 67,
+    "DBMS": 69,
+    "DAA": 78,
+    "CN": 85,
+    "MONGODB": 88
+  },
+  "attendance_percentage": {
+    "MATHS": 91.2,
+    "IDS": 63.7,
+    "DBMS": 86.4,
+    "DAA": 92.1,
+    "CN": 72.6,
+    "MONGODB": 91.5
+  },
+  "total_marks": 459,
+  "total_attendance_percentage": 82.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be372"
+  },
+  "usn": "1DS22CY063",
+  "name": "Timothy May",
+  "age": 23,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 78,
+    "IDS": 79,
+    "DBMS": 82,
+    "DAA": 97,
+    "CN": 85,
+    "MONGODB": 69
+  },
+  "attendance_percentage": {
+    "MATHS": 73.8,
+    "IDS": 59.9,
+    "DBMS": 58.4,
+    "DAA": 59.1,
+    "CN": 92.6,
+    "MONGODB": 85.4
+  },
+  "total_marks": 490,
+  "total_attendance_percentage": 71.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be373"
+  },
+  "usn": "1DS22CS004",
+  "name": "Rita Smith",
+  "age": 21,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 98,
+    "IDS": 75,
+    "DBMS": 89,
+    "DAA": 70,
+    "CN": 95,
+    "MONGODB": 61
+  },
+  "attendance_percentage": {
+    "MATHS": 63.6,
+    "IDS": 96.3,
+    "DBMS": 66.2,
+    "DAA": 75,
+    "CN": 71.8,
+    "MONGODB": 73.3
+  },
+  "total_marks": 488,
+  "total_attendance_percentage": 74.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be374"
+  },
+  "usn": "1DS22CD049",
+  "name": "Jason Garcia",
+  "age": 21,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 61,
+    "IDS": 83,
+    "DBMS": 78,
+    "DAA": 85,
+    "CN": 68,
+    "MONGODB": 66
+  },
+  "attendance_percentage": {
+    "MATHS": 90.1,
+    "IDS": 57.5,
+    "DBMS": 85.2,
+    "DAA": 52,
+    "CN": 83.9,
+    "MONGODB": 69.6
+  },
+  "total_marks": 441,
+  "total_attendance_percentage": 73
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be375"
+  },
+  "usn": "1DS22IS059",
+  "name": "Daniel Cabrera",
+  "age": 20,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 89,
+    "IDS": 83,
+    "DBMS": 97,
+    "DAA": 90,
+    "CN": 78,
+    "MONGODB": 80
+  },
+  "attendance_percentage": {
+    "MATHS": 83.6,
+    "IDS": 97,
+    "DBMS": 86.6,
+    "DAA": 66.4,
+    "CN": 52.5,
+    "MONGODB": 88.8
+  },
+  "total_marks": 517,
+  "total_attendance_percentage": 79.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be376"
+  },
+  "usn": "1DS22IS080",
+  "name": "Nicholas Jenkins",
+  "age": 23,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 87,
+    "IDS": 69,
+    "DBMS": 94,
+    "DAA": 90,
+    "CN": 96,
+    "MONGODB": 98
+  },
+  "attendance_percentage": {
+    "MATHS": 73,
+    "IDS": 51.5,
+    "DBMS": 96.6,
+    "DAA": 70.6,
+    "CN": 57.2,
+    "MONGODB": 80.2
+  },
+  "total_marks": 534,
+  "total_attendance_percentage": 71.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be377"
+  },
+  "usn": "1DS22IS087",
+  "name": "Susan Edwards",
+  "age": 21,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 75,
+    "IDS": 99,
+    "DBMS": 73,
+    "DAA": 97,
+    "CN": 81,
+    "MONGODB": 80
+  },
+  "attendance_percentage": {
+    "MATHS": 59.5,
+    "IDS": 92.3,
+    "DBMS": 56.1,
+    "DAA": 99.5,
+    "CN": 53.5,
+    "MONGODB": 83.5
+  },
+  "total_marks": 505,
+  "total_attendance_percentage": 74.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be378"
+  },
+  "usn": "1DS22CD037",
+  "name": "Justin Perez",
+  "age": 20,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 63,
+    "IDS": 99,
+    "DBMS": 74,
+    "DAA": 82,
+    "CN": 76,
+    "MONGODB": 95
+  },
+  "attendance_percentage": {
+    "MATHS": 83.1,
+    "IDS": 50.1,
+    "DBMS": 59.3,
+    "DAA": 87.3,
+    "CN": 76.4,
+    "MONGODB": 89.3
+  },
+  "total_marks": 489,
+  "total_attendance_percentage": 74.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be379"
+  },
+  "usn": "1DS22CY018",
+  "name": "Lisa Berry",
+  "age": 22,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 75,
+    "IDS": 92,
+    "DBMS": 79,
+    "DAA": 82,
+    "CN": 81,
+    "MONGODB": 79
+  },
+  "attendance_percentage": {
+    "MATHS": 92.9,
+    "IDS": 96.5,
+    "DBMS": 68.8,
+    "DAA": 96.3,
+    "CN": 57.4,
+    "MONGODB": 65.2
+  },
+  "total_marks": 488,
+  "total_attendance_percentage": 79.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be37a"
+  },
+  "usn": "1DS22CS037",
+  "name": "Terry Mcdowell",
+  "age": 22,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 60,
+    "IDS": 91,
+    "DBMS": 92,
+    "DAA": 76,
+    "CN": 92,
+    "MONGODB": 75
+  },
+  "attendance_percentage": {
+    "MATHS": 98.1,
+    "IDS": 80,
+    "DBMS": 79.8,
+    "DAA": 97.5,
+    "CN": 65.2,
+    "MONGODB": 59.6
+  },
+  "total_marks": 486,
+  "total_attendance_percentage": 80
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be37b"
+  },
+  "usn": "1DS22IS057",
+  "name": "Christian Brown",
+  "age": 21,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 86,
+    "IDS": 99,
+    "DBMS": 71,
+    "DAA": 80,
+    "CN": 95,
+    "MONGODB": 83
+  },
+  "attendance_percentage": {
+    "MATHS": 63.2,
+    "IDS": 98.9,
+    "DBMS": 51.1,
+    "DAA": 93.9,
+    "CN": 80.2,
+    "MONGODB": 53.6
+  },
+  "total_marks": 514,
+  "total_attendance_percentage": 73.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be37c"
+  },
+  "usn": "1DS22IS032",
+  "name": "Cynthia Taylor",
+  "age": 25,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 93,
+    "IDS": 82,
+    "DBMS": 95,
+    "DAA": 95,
+    "CN": 76,
+    "MONGODB": 93
+  },
+  "attendance_percentage": {
+    "MATHS": 55.9,
+    "IDS": 72.3,
+    "DBMS": 76.7,
+    "DAA": 55.8,
+    "CN": 53.6,
+    "MONGODB": 54.1
+  },
+  "total_marks": 534,
+  "total_attendance_percentage": 61.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be37d"
+  },
+  "usn": "1DS22CD026",
+  "name": "Gary Brown",
+  "age": 20,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 65,
+    "IDS": 62,
+    "DBMS": 73,
+    "DAA": 81,
+    "CN": 84,
+    "MONGODB": 69
+  },
+  "attendance_percentage": {
+    "MATHS": 56.5,
+    "IDS": 82.2,
+    "DBMS": 51.7,
+    "DAA": 65.1,
+    "CN": 84.1,
+    "MONGODB": 53.1
+  },
+  "total_marks": 434,
+  "total_attendance_percentage": 65.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be37e"
+  },
+  "usn": "1DS22CY032",
+  "name": "Michelle Lambert",
+  "age": 25,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 68,
+    "IDS": 93,
+    "DBMS": 90,
+    "DAA": 79,
+    "CN": 69,
+    "MONGODB": 95
+  },
+  "attendance_percentage": {
+    "MATHS": 79.9,
+    "IDS": 75,
+    "DBMS": 50.3,
+    "DAA": 70.3,
+    "CN": 72.3,
+    "MONGODB": 56.3
+  },
+  "total_marks": 494,
+  "total_attendance_percentage": 67.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be37f"
+  },
+  "usn": "1DS22CS060",
+  "name": "Robert Ponce",
+  "age": 25,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 76,
+    "IDS": 66,
+    "DBMS": 82,
+    "DAA": 61,
+    "CN": 73,
+    "MONGODB": 79
+  },
+  "attendance_percentage": {
+    "MATHS": 79.7,
+    "IDS": 53.2,
+    "DBMS": 74.4,
+    "DAA": 91.1,
+    "CN": 82.3,
+    "MONGODB": 66
+  },
+  "total_marks": 437,
+  "total_attendance_percentage": 74.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be380"
+  },
+  "usn": "1DS22IS082",
+  "name": "Christina Ayala",
+  "age": 25,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 90,
+    "IDS": 79,
+    "DBMS": 61,
+    "DAA": 82,
+    "CN": 91,
+    "MONGODB": 75
+  },
+  "attendance_percentage": {
+    "MATHS": 54.6,
+    "IDS": 91.6,
+    "DBMS": 79.9,
+    "DAA": 87.4,
+    "CN": 63.1,
+    "MONGODB": 94.3
+  },
+  "total_marks": 478,
+  "total_attendance_percentage": 78.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be381"
+  },
+  "usn": "1DS22IS044",
+  "name": "Jose Phelps",
+  "age": 21,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 87,
+    "IDS": 88,
+    "DBMS": 91,
+    "DAA": 99,
+    "CN": 76,
+    "MONGODB": 66
+  },
+  "attendance_percentage": {
+    "MATHS": 69.9,
+    "IDS": 74.4,
+    "DBMS": 76.3,
+    "DAA": 97.6,
+    "CN": 59.6,
+    "MONGODB": 89.2
+  },
+  "total_marks": 507,
+  "total_attendance_percentage": 77.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be382"
+  },
+  "usn": "1DS22CY044",
+  "name": "Mikayla Shelton",
+  "age": 19,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 64,
+    "IDS": 96,
+    "DBMS": 65,
+    "DAA": 71,
+    "CN": 88,
+    "MONGODB": 70
+  },
+  "attendance_percentage": {
+    "MATHS": 76.7,
+    "IDS": 59.6,
+    "DBMS": 96.9,
+    "DAA": 65.4,
+    "CN": 54.9,
+    "MONGODB": 99.8
+  },
+  "total_marks": 454,
+  "total_attendance_percentage": 75.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be383"
+  },
+  "usn": "1DS22CS081",
+  "name": "Richard Hampton",
+  "age": 21,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 78,
+    "IDS": 83,
+    "DBMS": 100,
+    "DAA": 75,
+    "CN": 98,
+    "MONGODB": 89
+  },
+  "attendance_percentage": {
+    "MATHS": 92.3,
+    "IDS": 94.8,
+    "DBMS": 93.9,
+    "DAA": 52.8,
+    "CN": 95.1,
+    "MONGODB": 55.7
+  },
+  "total_marks": 523,
+  "total_attendance_percentage": 80.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be384"
+  },
+  "usn": "1DS22CS079",
+  "name": "Amanda Dorsey",
+  "age": 22,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 66,
+    "IDS": 96,
+    "DBMS": 98,
+    "DAA": 62,
+    "CN": 60,
+    "MONGODB": 67
+  },
+  "attendance_percentage": {
+    "MATHS": 56.4,
+    "IDS": 87.1,
+    "DBMS": 95.3,
+    "DAA": 59.7,
+    "CN": 50.1,
+    "MONGODB": 96.1
+  },
+  "total_marks": 449,
+  "total_attendance_percentage": 74.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be385"
+  },
+  "usn": "1DS22CD007",
+  "name": "Robert Hayden",
+  "age": 21,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 63,
+    "IDS": 80,
+    "DBMS": 68,
+    "DAA": 87,
+    "CN": 60,
+    "MONGODB": 81
+  },
+  "attendance_percentage": {
+    "MATHS": 96.6,
+    "IDS": 96.8,
+    "DBMS": 85.3,
+    "DAA": 87.1,
+    "CN": 62.9,
+    "MONGODB": 82.7
+  },
+  "total_marks": 439,
+  "total_attendance_percentage": 85.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be386"
+  },
+  "usn": "1DS22CD081",
+  "name": "Anne Warren",
+  "age": 22,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 87,
+    "IDS": 84,
+    "DBMS": 77,
+    "DAA": 98,
+    "CN": 74,
+    "MONGODB": 81
+  },
+  "attendance_percentage": {
+    "MATHS": 72.3,
+    "IDS": 81.8,
+    "DBMS": 62.3,
+    "DAA": 59,
+    "CN": 91.3,
+    "MONGODB": 77.3
+  },
+  "total_marks": 501,
+  "total_attendance_percentage": 74
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be387"
+  },
+  "usn": "1DS22CD062",
+  "name": "Jay Mcgee",
+  "age": 25,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 87,
+    "IDS": 100,
+    "DBMS": 77,
+    "DAA": 60,
+    "CN": 78,
+    "MONGODB": 67
+  },
+  "attendance_percentage": {
+    "MATHS": 88.5,
+    "IDS": 96.7,
+    "DBMS": 62,
+    "DAA": 61.6,
+    "CN": 85.1,
+    "MONGODB": 50.2
+  },
+  "total_marks": 469,
+  "total_attendance_percentage": 74
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be388"
+  },
+  "usn": "1DS22CY011",
+  "name": "Jose Wood",
+  "age": 24,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 95,
+    "IDS": 63,
+    "DBMS": 77,
+    "DAA": 79,
+    "CN": 65,
+    "MONGODB": 86
+  },
+  "attendance_percentage": {
+    "MATHS": 88.2,
+    "IDS": 64,
+    "DBMS": 76.1,
+    "DAA": 77.6,
+    "CN": 91.2,
+    "MONGODB": 67.1
+  },
+  "total_marks": 465,
+  "total_attendance_percentage": 77.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be389"
+  },
+  "usn": "1DS22CD058",
+  "name": "Nicholas Long DVM",
+  "age": 25,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 68,
+    "IDS": 90,
+    "DBMS": 66,
+    "DAA": 62,
+    "CN": 73,
+    "MONGODB": 88
+  },
+  "attendance_percentage": {
+    "MATHS": 61.5,
+    "IDS": 88.6,
+    "DBMS": 95,
+    "DAA": 85.4,
+    "CN": 94.5,
+    "MONGODB": 81.6
+  },
+  "total_marks": 447,
+  "total_attendance_percentage": 84.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be38a"
+  },
+  "usn": "1DS22IS048",
+  "name": "Marissa Huber",
+  "age": 19,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 86,
+    "IDS": 85,
+    "DBMS": 70,
+    "DAA": 94,
+    "CN": 99,
+    "MONGODB": 82
+  },
+  "attendance_percentage": {
+    "MATHS": 85.6,
+    "IDS": 88.3,
+    "DBMS": 95.2,
+    "DAA": 100,
+    "CN": 88.2,
+    "MONGODB": 63.8
+  },
+  "total_marks": 516,
+  "total_attendance_percentage": 86.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be38b"
+  },
+  "usn": "1DS22CY082",
+  "name": "Michael Brown",
+  "age": 20,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 65,
+    "IDS": 68,
+    "DBMS": 79,
+    "DAA": 99,
+    "CN": 86,
+    "MONGODB": 84
+  },
+  "attendance_percentage": {
+    "MATHS": 99,
+    "IDS": 81.5,
+    "DBMS": 80.2,
+    "DAA": 93.1,
+    "CN": 60.5,
+    "MONGODB": 56.3
+  },
+  "total_marks": 481,
+  "total_attendance_percentage": 78.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be38c"
+  },
+  "usn": "1DS22CY050",
+  "name": "Michael Oliver",
+  "age": 20,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 66,
+    "IDS": 85,
+    "DBMS": 66,
+    "DAA": 87,
+    "CN": 62,
+    "MONGODB": 63
+  },
+  "attendance_percentage": {
+    "MATHS": 53.7,
+    "IDS": 61,
+    "DBMS": 98.5,
+    "DAA": 91.3,
+    "CN": 81.7,
+    "MONGODB": 87
+  },
+  "total_marks": 429,
+  "total_attendance_percentage": 78.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be38d"
+  },
+  "usn": "1DS22CD057",
+  "name": "Christine Coleman",
+  "age": 23,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 88,
+    "IDS": 84,
+    "DBMS": 96,
+    "DAA": 60,
+    "CN": 99,
+    "MONGODB": 96
+  },
+  "attendance_percentage": {
+    "MATHS": 82.5,
+    "IDS": 77.2,
+    "DBMS": 92.7,
+    "DAA": 65.7,
+    "CN": 91.1,
+    "MONGODB": 74.8
+  },
+  "total_marks": 523,
+  "total_attendance_percentage": 80.7
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be38e"
+  },
+  "usn": "1DS22CY071",
+  "name": "Eric Arellano",
+  "age": 19,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 83,
+    "IDS": 69,
+    "DBMS": 61,
+    "DAA": 81,
+    "CN": 60,
+    "MONGODB": 92
+  },
+  "attendance_percentage": {
+    "MATHS": 76.2,
+    "IDS": 61.7,
+    "DBMS": 88.2,
+    "DAA": 65.9,
+    "CN": 86.8,
+    "MONGODB": 57
+  },
+  "total_marks": 446,
+  "total_attendance_percentage": 72.6
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be38f"
+  },
+  "usn": "1DS22IS050",
+  "name": "Mr. Maurice Gutierrez",
+  "age": 23,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 90,
+    "IDS": 72,
+    "DBMS": 78,
+    "DAA": 90,
+    "CN": 88,
+    "MONGODB": 92
+  },
+  "attendance_percentage": {
+    "MATHS": 88.9,
+    "IDS": 61.3,
+    "DBMS": 87.9,
+    "DAA": 53.1,
+    "CN": 56.5,
+    "MONGODB": 61.6
+  },
+  "total_marks": 510,
+  "total_attendance_percentage": 68.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be390"
+  },
+  "usn": "1DS22CD074",
+  "name": "Jennifer Fernandez",
+  "age": 22,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 69,
+    "IDS": 100,
+    "DBMS": 98,
+    "DAA": 92,
+    "CN": 95,
+    "MONGODB": 70
+  },
+  "attendance_percentage": {
+    "MATHS": 97.8,
+    "IDS": 79.1,
+    "DBMS": 95,
+    "DAA": 91.1,
+    "CN": 51.1,
+    "MONGODB": 89.4
+  },
+  "total_marks": 524,
+  "total_attendance_percentage": 83.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be391"
+  },
+  "usn": "1DS22IS070",
+  "name": "Mark Reynolds",
+  "age": 19,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 83,
+    "IDS": 94,
+    "DBMS": 77,
+    "DAA": 91,
+    "CN": 96,
+    "MONGODB": 76
+  },
+  "attendance_percentage": {
+    "MATHS": 93.9,
+    "IDS": 84.8,
+    "DBMS": 84.8,
+    "DAA": 57.8,
+    "CN": 68.3,
+    "MONGODB": 54
+  },
+  "total_marks": 517,
+  "total_attendance_percentage": 73.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be392"
+  },
+  "usn": "1DS22IS015",
+  "name": "Deborah Wilcox",
+  "age": 22,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 73,
+    "IDS": 84,
+    "DBMS": 98,
+    "DAA": 89,
+    "CN": 76,
+    "MONGODB": 99
+  },
+  "attendance_percentage": {
+    "MATHS": 79.1,
+    "IDS": 70.5,
+    "DBMS": 94.6,
+    "DAA": 57.3,
+    "CN": 83.8,
+    "MONGODB": 95.1
+  },
+  "total_marks": 519,
+  "total_attendance_percentage": 80.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be393"
+  },
+  "usn": "1DS22IS064",
+  "name": "Kenneth Holland",
+  "age": 25,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 98,
+    "IDS": 79,
+    "DBMS": 88,
+    "DAA": 73,
+    "CN": 95,
+    "MONGODB": 100
+  },
+  "attendance_percentage": {
+    "MATHS": 92.2,
+    "IDS": 77.7,
+    "DBMS": 66.7,
+    "DAA": 74.2,
+    "CN": 83.1,
+    "MONGODB": 75
+  },
+  "total_marks": 533,
+  "total_attendance_percentage": 78.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be394"
+  },
+  "usn": "1DS22CD039",
+  "name": "Edwin Pace",
+  "age": 19,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 85,
+    "IDS": 99,
+    "DBMS": 100,
+    "DAA": 79,
+    "CN": 74,
+    "MONGODB": 78
+  },
+  "attendance_percentage": {
+    "MATHS": 67.4,
+    "IDS": 61.5,
+    "DBMS": 94.3,
+    "DAA": 74.3,
+    "CN": 93.3,
+    "MONGODB": 92.2
+  },
+  "total_marks": 515,
+  "total_attendance_percentage": 80.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be395"
+  },
+  "usn": "1DS22CY092",
+  "name": "Rachel Rodriguez",
+  "age": 25,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 71,
+    "IDS": 70,
+    "DBMS": 70,
+    "DAA": 79,
+    "CN": 81,
+    "MONGODB": 63
+  },
+  "attendance_percentage": {
+    "MATHS": 52.1,
+    "IDS": 66.1,
+    "DBMS": 89.3,
+    "DAA": 66,
+    "CN": 67.9,
+    "MONGODB": 80.4
+  },
+  "total_marks": 434,
+  "total_attendance_percentage": 70.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be396"
+  },
+  "usn": "1DS22IS023",
+  "name": "Sharon Garner",
+  "age": 23,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 69,
+    "IDS": 84,
+    "DBMS": 98,
+    "DAA": 71,
+    "CN": 85,
+    "MONGODB": 84
+  },
+  "attendance_percentage": {
+    "MATHS": 52.5,
+    "IDS": 88.4,
+    "DBMS": 77.9,
+    "DAA": 56.9,
+    "CN": 66.9,
+    "MONGODB": 50.6
+  },
+  "total_marks": 491,
+  "total_attendance_percentage": 65.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be397"
+  },
+  "usn": "1DS22IS032",
+  "name": "Daniel Smith",
+  "age": 19,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 89,
+    "IDS": 81,
+    "DBMS": 99,
+    "DAA": 77,
+    "CN": 97,
+    "MONGODB": 69
+  },
+  "attendance_percentage": {
+    "MATHS": 63.6,
+    "IDS": 82.8,
+    "DBMS": 67.3,
+    "DAA": 78.1,
+    "CN": 60.8,
+    "MONGODB": 94.2
+  },
+  "total_marks": 512,
+  "total_attendance_percentage": 74.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be398"
+  },
+  "usn": "1DS22CD077",
+  "name": "Jason Armstrong",
+  "age": 20,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 85,
+    "IDS": 66,
+    "DBMS": 80,
+    "DAA": 76,
+    "CN": 65,
+    "MONGODB": 87
+  },
+  "attendance_percentage": {
+    "MATHS": 89.1,
+    "IDS": 80.4,
+    "DBMS": 93.5,
+    "DAA": 76.7,
+    "CN": 57.4,
+    "MONGODB": 80.2
+  },
+  "total_marks": 459,
+  "total_attendance_percentage": 79.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be399"
+  },
+  "usn": "1DS22CY089",
+  "name": "Scott Jackson",
+  "age": 25,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 68,
+    "IDS": 62,
+    "DBMS": 67,
+    "DAA": 75,
+    "CN": 87,
+    "MONGODB": 82
+  },
+  "attendance_percentage": {
+    "MATHS": 57.7,
+    "IDS": 65.9,
+    "DBMS": 75.8,
+    "DAA": 88.7,
+    "CN": 69.1,
+    "MONGODB": 54.2
+  },
+  "total_marks": 441,
+  "total_attendance_percentage": 68.6
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be39a"
+  },
+  "usn": "1DS22IS044",
+  "name": "Sherry Rodriguez",
+  "age": 18,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 60,
+    "IDS": 80,
+    "DBMS": 82,
+    "DAA": 65,
+    "CN": 62,
+    "MONGODB": 68
+  },
+  "attendance_percentage": {
+    "MATHS": 95.8,
+    "IDS": 60.3,
+    "DBMS": 72.9,
+    "DAA": 50.8,
+    "CN": 59.7,
+    "MONGODB": 98.2
+  },
+  "total_marks": 417,
+  "total_attendance_percentage": 73
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be39b"
+  },
+  "usn": "1DS22CY075",
+  "name": "Judy Johns",
+  "age": 22,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 75,
+    "IDS": 72,
+    "DBMS": 70,
+    "DAA": 67,
+    "CN": 89,
+    "MONGODB": 90
+  },
+  "attendance_percentage": {
+    "MATHS": 82.8,
+    "IDS": 60.9,
+    "DBMS": 76.8,
+    "DAA": 52.9,
+    "CN": 53.1,
+    "MONGODB": 67.9
+  },
+  "total_marks": 463,
+  "total_attendance_percentage": 65.7
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be39c"
+  },
+  "usn": "1DS22CD022",
+  "name": "Larry Oconnor",
+  "age": 25,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 79,
+    "IDS": 80,
+    "DBMS": 94,
+    "DAA": 65,
+    "CN": 86,
+    "MONGODB": 68
+  },
+  "attendance_percentage": {
+    "MATHS": 76.8,
+    "IDS": 66.3,
+    "DBMS": 92.3,
+    "DAA": 86.5,
+    "CN": 81.3,
+    "MONGODB": 60.9
+  },
+  "total_marks": 472,
+  "total_attendance_percentage": 77.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be39d"
+  },
+  "usn": "1DS22IS066",
+  "name": "Jonathan Baxter",
+  "age": 23,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 63,
+    "IDS": 86,
+    "DBMS": 92,
+    "DAA": 94,
+    "CN": 99,
+    "MONGODB": 89
+  },
+  "attendance_percentage": {
+    "MATHS": 50.3,
+    "IDS": 74.3,
+    "DBMS": 75.2,
+    "DAA": 58.5,
+    "CN": 82.7,
+    "MONGODB": 69.2
+  },
+  "total_marks": 523,
+  "total_attendance_percentage": 68.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be39e"
+  },
+  "usn": "1DS22CD063",
+  "name": "Brian Rogers",
+  "age": 23,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 68,
+    "IDS": 85,
+    "DBMS": 96,
+    "DAA": 87,
+    "CN": 60,
+    "MONGODB": 80
+  },
+  "attendance_percentage": {
+    "MATHS": 96.8,
+    "IDS": 90.3,
+    "DBMS": 86,
+    "DAA": 62.5,
+    "CN": 53,
+    "MONGODB": 75.8
+  },
+  "total_marks": 476,
+  "total_attendance_percentage": 77.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be39f"
+  },
+  "usn": "1DS22CD002",
+  "name": "Andrea Nolan",
+  "age": 20,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 87,
+    "IDS": 95,
+    "DBMS": 70,
+    "DAA": 90,
+    "CN": 79,
+    "MONGODB": 79
+  },
+  "attendance_percentage": {
+    "MATHS": 98,
+    "IDS": 85.2,
+    "DBMS": 93.2,
+    "DAA": 79.4,
+    "CN": 54.9,
+    "MONGODB": 84.1
+  },
+  "total_marks": 500,
+  "total_attendance_percentage": 82.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a0"
+  },
+  "usn": "1DS22IS012",
+  "name": "Gary Parks",
+  "age": 22,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 66,
+    "IDS": 71,
+    "DBMS": 99,
+    "DAA": 95,
+    "CN": 95,
+    "MONGODB": 68
+  },
+  "attendance_percentage": {
+    "MATHS": 97.3,
+    "IDS": 81.8,
+    "DBMS": 74.5,
+    "DAA": 78,
+    "CN": 71.6,
+    "MONGODB": 84.4
+  },
+  "total_marks": 494,
+  "total_attendance_percentage": 81.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a1"
+  },
+  "usn": "1DS22IS034",
+  "name": "Robert Miller",
+  "age": 22,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 99,
+    "IDS": 85,
+    "DBMS": 74,
+    "DAA": 95,
+    "CN": 86,
+    "MONGODB": 89
+  },
+  "attendance_percentage": {
+    "MATHS": 90,
+    "IDS": 51.3,
+    "DBMS": 58.5,
+    "DAA": 75.7,
+    "CN": 86,
+    "MONGODB": 81.4
+  },
+  "total_marks": 528,
+  "total_attendance_percentage": 73.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a2"
+  },
+  "usn": "1DS22IS037",
+  "name": "Ashley Adams MD",
+  "age": 25,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 77,
+    "IDS": 78,
+    "DBMS": 76,
+    "DAA": 85,
+    "CN": 75,
+    "MONGODB": 71
+  },
+  "attendance_percentage": {
+    "MATHS": 57.3,
+    "IDS": 64.2,
+    "DBMS": 56.1,
+    "DAA": 65.7,
+    "CN": 53.2,
+    "MONGODB": 60
+  },
+  "total_marks": 462,
+  "total_attendance_percentage": 59.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a3"
+  },
+  "usn": "1DS22IS021",
+  "name": "Sally Hoffman",
+  "age": 21,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 81,
+    "IDS": 63,
+    "DBMS": 92,
+    "DAA": 66,
+    "CN": 73,
+    "MONGODB": 83
+  },
+  "attendance_percentage": {
+    "MATHS": 81.6,
+    "IDS": 57,
+    "DBMS": 89.8,
+    "DAA": 51.5,
+    "CN": 58.1,
+    "MONGODB": 62
+  },
+  "total_marks": 458,
+  "total_attendance_percentage": 66.7
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a4"
+  },
+  "usn": "1DS22IS029",
+  "name": "Hannah Donovan",
+  "age": 20,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 76,
+    "IDS": 78,
+    "DBMS": 92,
+    "DAA": 61,
+    "CN": 93,
+    "MONGODB": 65
+  },
+  "attendance_percentage": {
+    "MATHS": 72.9,
+    "IDS": 90.3,
+    "DBMS": 98.7,
+    "DAA": 91.8,
+    "CN": 73.4,
+    "MONGODB": 65.4
+  },
+  "total_marks": 465,
+  "total_attendance_percentage": 82.1
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a5"
+  },
+  "usn": "1DS22CD071",
+  "name": "Amy Lewis",
+  "age": 25,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 71,
+    "IDS": 64,
+    "DBMS": 97,
+    "DAA": 88,
+    "CN": 97,
+    "MONGODB": 79
+  },
+  "attendance_percentage": {
+    "MATHS": 88.8,
+    "IDS": 91.7,
+    "DBMS": 78.2,
+    "DAA": 91.5,
+    "CN": 88.5,
+    "MONGODB": 64.6
+  },
+  "total_marks": 496,
+  "total_attendance_percentage": 83.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a6"
+  },
+  "usn": "1DS22CY054",
+  "name": "Emily Love",
+  "age": 23,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 70,
+    "IDS": 93,
+    "DBMS": 60,
+    "DAA": 77,
+    "CN": 92,
+    "MONGODB": 91
+  },
+  "attendance_percentage": {
+    "MATHS": 82.3,
+    "IDS": 75.6,
+    "DBMS": 66.2,
+    "DAA": 53.8,
+    "CN": 89,
+    "MONGODB": 78.7
+  },
+  "total_marks": 483,
+  "total_attendance_percentage": 74.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a7"
+  },
+  "usn": "1DS22CS072",
+  "name": "Kerry Greene",
+  "age": 19,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 76,
+    "IDS": 75,
+    "DBMS": 80,
+    "DAA": 89,
+    "CN": 94,
+    "MONGODB": 82
+  },
+  "attendance_percentage": {
+    "MATHS": 54.5,
+    "IDS": 50.2,
+    "DBMS": 50.2,
+    "DAA": 92.3,
+    "CN": 92.2,
+    "MONGODB": 79.8
+  },
+  "total_marks": 496,
+  "total_attendance_percentage": 69.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a8"
+  },
+  "usn": "1DS22IS079",
+  "name": "Alex Johnson",
+  "age": 24,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 82,
+    "IDS": 98,
+    "DBMS": 86,
+    "DAA": 90,
+    "CN": 99,
+    "MONGODB": 94
+  },
+  "attendance_percentage": {
+    "MATHS": 96,
+    "IDS": 97.8,
+    "DBMS": 88.8,
+    "DAA": 81.5,
+    "CN": 80.9,
+    "MONGODB": 63
+  },
+  "total_marks": 549,
+  "total_attendance_percentage": 84.7
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3a9"
+  },
+  "usn": "1DS22CD091",
+  "name": "Michael Brown",
+  "age": 18,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 60,
+    "IDS": 70,
+    "DBMS": 65,
+    "DAA": 84,
+    "CN": 68,
+    "MONGODB": 61
+  },
+  "attendance_percentage": {
+    "MATHS": 95.1,
+    "IDS": 73.2,
+    "DBMS": 68.3,
+    "DAA": 86.7,
+    "CN": 87.8,
+    "MONGODB": 80.7
+  },
+  "total_marks": 408,
+  "total_attendance_percentage": 82
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3aa"
+  },
+  "usn": "1DS22CY046",
+  "name": "Catherine Rodriguez",
+  "age": 19,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 79,
+    "IDS": 68,
+    "DBMS": 63,
+    "DAA": 63,
+    "CN": 91,
+    "MONGODB": 61
+  },
+  "attendance_percentage": {
+    "MATHS": 81.6,
+    "IDS": 82.7,
+    "DBMS": 97.8,
+    "DAA": 62.6,
+    "CN": 58,
+    "MONGODB": 94.2
+  },
+  "total_marks": 425,
+  "total_attendance_percentage": 79.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3ab"
+  },
+  "usn": "1DS22CD052",
+  "name": "Cristian Davis",
+  "age": 24,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 85,
+    "IDS": 86,
+    "DBMS": 96,
+    "DAA": 75,
+    "CN": 64,
+    "MONGODB": 71
+  },
+  "attendance_percentage": {
+    "MATHS": 78.1,
+    "IDS": 84.8,
+    "DBMS": 62.8,
+    "DAA": 55.3,
+    "CN": 89.4,
+    "MONGODB": 73.9
+  },
+  "total_marks": 477,
+  "total_attendance_percentage": 74
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3ac"
+  },
+  "usn": "1DS22CS075",
+  "name": "Mr. Eric Nunez",
+  "age": 20,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 62,
+    "IDS": 67,
+    "DBMS": 85,
+    "DAA": 79,
+    "CN": 77,
+    "MONGODB": 82
+  },
+  "attendance_percentage": {
+    "MATHS": 60.5,
+    "IDS": 88.9,
+    "DBMS": 92.5,
+    "DAA": 93.9,
+    "CN": 74.2,
+    "MONGODB": 75.5
+  },
+  "total_marks": 452,
+  "total_attendance_percentage": 80.9
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3ad"
+  },
+  "usn": "1DS22CD006",
+  "name": "Dana Mccullough",
+  "age": 22,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 76,
+    "IDS": 80,
+    "DBMS": 84,
+    "DAA": 70,
+    "CN": 89,
+    "MONGODB": 68
+  },
+  "attendance_percentage": {
+    "MATHS": 56.6,
+    "IDS": 64.9,
+    "DBMS": 72.5,
+    "DAA": 64.5,
+    "CN": 97.6,
+    "MONGODB": 69.8
+  },
+  "total_marks": 467,
+  "total_attendance_percentage": 71
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3ae"
+  },
+  "usn": "1DS22CD081",
+  "name": "Makayla Stuart",
+  "age": 19,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 71,
+    "IDS": 69,
+    "DBMS": 81,
+    "DAA": 94,
+    "CN": 95,
+    "MONGODB": 88
+  },
+  "attendance_percentage": {
+    "MATHS": 72.8,
+    "IDS": 59.2,
+    "DBMS": 61.2,
+    "DAA": 79.6,
+    "CN": 66.3,
+    "MONGODB": 58.9
+  },
+  "total_marks": 498,
+  "total_attendance_percentage": 66.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3af"
+  },
+  "usn": "1DS22CD010",
+  "name": "Shelby Brock",
+  "age": 19,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 97,
+    "IDS": 74,
+    "DBMS": 81,
+    "DAA": 64,
+    "CN": 92,
+    "MONGODB": 81
+  },
+  "attendance_percentage": {
+    "MATHS": 79.4,
+    "IDS": 72.4,
+    "DBMS": 88.4,
+    "DAA": 57.2,
+    "CN": 62.1,
+    "MONGODB": 95.2
+  },
+  "total_marks": 489,
+  "total_attendance_percentage": 75.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3b0"
+  },
+  "usn": "1DS22CS036",
+  "name": "Natasha Leon",
+  "age": 20,
+  "branch": "CSE",
+  "marks": {
+    "MATHS": 60,
+    "IDS": 61,
+    "DBMS": 87,
+    "DAA": 83,
+    "CN": 65,
+    "MONGODB": 80
+  },
+  "attendance_percentage": {
+    "MATHS": 63.9,
+    "IDS": 53.8,
+    "DBMS": 88.1,
+    "DAA": 89.6,
+    "CN": 79.5,
+    "MONGODB": 55.6
+  },
+  "total_marks": 436,
+  "total_attendance_percentage": 71.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3b1"
+  },
+  "usn": "1DS22CY019",
+  "name": "George Wells",
+  "age": 20,
+  "branch": "CSCY",
+  "marks": {
+    "MATHS": 91,
+    "IDS": 96,
+    "DBMS": 88,
+    "DAA": 67,
+    "CN": 97,
+    "MONGODB": 82
+  },
+  "attendance_percentage": {
+    "MATHS": 56.8,
+    "IDS": 78.4,
+    "DBMS": 75.4,
+    "DAA": 98.9,
+    "CN": 84.2,
+    "MONGODB": 64.3
+  },
+  "total_marks": 521,
+  "total_attendance_percentage": 76.3
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3b2"
+  },
+  "usn": "1DS22CD071",
+  "name": "Priscilla Villa",
+  "age": 22,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 91,
+    "IDS": 82,
+    "DBMS": 82,
+    "DAA": 61,
+    "CN": 80,
+    "MONGODB": 93
+  },
+  "attendance_percentage": {
+    "MATHS": 71.4,
+    "IDS": 84.8,
+    "DBMS": 80.6,
+    "DAA": 90.1,
+    "CN": 50.7,
+    "MONGODB": 63.7
+  },
+  "total_marks": 489,
+  "total_attendance_percentage": 73.5
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3b3"
+  },
+  "usn": "1DS22CD039",
+  "name": "John Cooper",
+  "age": 24,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 73,
+    "IDS": 64,
+    "DBMS": 92,
+    "DAA": 85,
+    "CN": 97,
+    "MONGODB": 71
+  },
+  "attendance_percentage": {
+    "MATHS": 95.8,
+    "IDS": 91.8,
+    "DBMS": 56.6,
+    "DAA": 74.2,
+    "CN": 57.1,
+    "MONGODB": 52.7
+  },
+  "total_marks": 482,
+  "total_attendance_percentage": 71.4
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3b4"
+  },
+  "usn": "1DS22CD061",
+  "name": "Diana Keller",
+  "age": 19,
+  "branch": "CSDS",
+  "marks": {
+    "MATHS": 88,
+    "IDS": 89,
+    "DBMS": 96,
+    "DAA": 99,
+    "CN": 86,
+    "MONGODB": 81
+  },
+  "attendance_percentage": {
+    "MATHS": 89.3,
+    "IDS": 67.5,
+    "DBMS": 66.3,
+    "DAA": 53.1,
+    "CN": 67.4,
+    "MONGODB": 57
+  },
+  "total_marks": 539,
+  "total_attendance_percentage": 66.8
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3b5"
+  },
+  "usn": "1DS22IS007",
+  "name": "Terry Howell",
+  "age": 25,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 85,
+    "IDS": 80,
+    "DBMS": 63,
+    "DAA": 85,
+    "CN": 87,
+    "MONGODB": 79
+  },
+  "attendance_percentage": {
+    "MATHS": 58.6,
+    "IDS": 50.9,
+    "DBMS": 82.3,
+    "DAA": 73.1,
+    "CN": 78.7,
+    "MONGODB": 95.4
+  },
+  "total_marks": 479,
+  "total_attendance_percentage": 73.2
+},
+{
+  "_id": {
+    "$oid": "66a67230d11d6afc8d5be3b6"
+  },
+  "usn": "1DS22IS020",
+  "name": "Matthew Black",
+  "age": 25,
+  "branch": "ISE",
+  "marks": {
+    "MATHS": 61,
+    "IDS": 60,
+    "DBMS": 94,
+    "DAA": 100,
+    "CN": 76,
+    "MONGODB": 62
+  },
+  "attendance_percentage": {
+    "MATHS": 82.1,
+    "IDS": 63.9,
+    "DBMS": 55,
+    "DAA": 52.1,
+    "CN": 89,
+    "MONGODB": 58.2
+  },
+  "total_marks": 453,
+  "total_attendance_percentage": 66.7
+}]
