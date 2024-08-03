@@ -1,0 +1,1 @@
+Add an image for the face which has to be detected
