@@ -1,1 +1,1 @@
-Add an image for the face which has to be detected
+Add an image for the face which has to be detected. And remove this text file once the face is added here
