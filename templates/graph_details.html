@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="/static/css/graph_details.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Results</h1>
+        {% if individual %}
+            <h2>Individual Analysis</h2>
+            <img src="/static/{{ individual['marks_image'] }}" alt="Marks Graph">
+            <img src="/static/{{ individual['attendance_image'] }}" alt="Attendance Graph">
+            <img src="/static/{{ individual['marks_pie_image'] }}" alt="Marks Pie Chart">
+            <img src="/static/{{ individual['attendance_pie_image'] }}" alt="Attendance Pie Chart">
+        {% endif %}
+        {% if overall %}
+            <h2>Overall Analysis</h2>
+            <img src="/static/{{ overall['total_marks_image'] }}" alt="Total Marks Distribution">
+            <img src="/static/{{ overall['total_attendance_image'] }}" alt="Total Attendance Distribution">
+        {% endif %}
+        <a href="/">Back</a>
+    </div>
+</body>
+</html>

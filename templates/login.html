@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/index.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <form method="POST" action="/login">
+      <h3>Digiकक्षा Login</h3>
+
+      <label for="username">Username</label>
+      <input type="text" placeholder="Username" id="username" name="username" required />
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" id="password" name="password" required />
+
+      <button type="submit" id="loginBtn">Log In</button>
+      <div class="social">
+        <div class="go"><i class="fab fa-google"></i> Google</div>
+        <div class="fb">
+          <a href="signup.html"><i class="fab fa-facebook"></i> NEW USER?</a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask a Question</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/ask.css') }}" />
+  </head>
+  <body>
+    <h1>Ask a Question</h1>
+    <form action="/ask" method="post">
+      <input type="text" name="question" placeholder="Enter your question" />
+      <input type="submit" value="Ask" />
+    </form>
+    {% if question %}
+    <h2>Question: {{ question }}</h2>
+    <h3>Answer: {{ response }}</h3>
+    {% endif %}
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Entry</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Graph Entry</h1>
+        <form action="/analyze_individual" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="usn">Enter USN:</label>
+                <input type="text" id="usn" name="usn" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Analyze Individual</button>
+        </form>
+        <form action="/analyze_all" method="post" class="mt-4">
+            <button type="submit" class="btn btn-secondary">Analyze Overall</button>
+        </form>
+    </div>
+</body>
+</html>
