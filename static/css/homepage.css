@@ -1,0 +1,74 @@
+/* General body styling */
+body {
+  background-color: #080710;
+  color: #a1a1aa;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  background-color: rgba(255, 255, 255, 0.27);
+  border: none;
+  color: #ffffff;
+  margin-bottom: 20px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1 1 300px;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Card title styling */
+.card-title {
+  color: #ffffff;
+}
+
+/* Card body styling */
+.card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+/* Primary button styling */
+.btn-primary {
+  background-color: #1e90ff;
+  border-color: #1e90ff;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Primary button hover effect */
+.btn-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Card container styling */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 80vh;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
