@@ -1,7 +1,7 @@
 
 # **DigiKaksha (AI-Based Smart Classroom Management)**
 
-**(The YOUTUBE link for the project working: https://youtu.be/s1tvwx_CCRs)**
+**(The YOUTUBE link for the working of this project : https://youtu.be/s1tvwx_CCRs)**
 
 
 DigiKaksha is a machine learning-based smart solution designed to assist and streamline tasks in educational institutions. It consists of three main components:
