@@ -1,5 +1,5 @@
 # DigiKaksha
-To see the working oif the project kindly follow this YoutTube link: 
+To see the working oif the project kindly follow this YoutTube link: https://youtu.be/s1tvwx_CCRs
 This is an ML based Smart solution to the Educational institutes. It has Mainly 3 components:
 
 a) Face detection made using OpenCV
