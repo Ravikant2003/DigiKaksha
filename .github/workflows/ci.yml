@@ -1,0 +1,113 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build-macos:
+    name: macOS (Python 3.11)
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install system dependencies
+        run: |
+          brew update
+          brew install cmake
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Sanity imports
+        run: |
+          python - <<'PY'
+          import sys
+          import fastapi, pandas, numpy, cv2, dlib, face_recognition, langchain, chromadb
+          import docling
+          print('Sanity OK on macOS:', sys.version)
+          PY
+
+  build-ubuntu:
+    name: Ubuntu (Python 3.11)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake build-essential
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Sanity imports
+        run: |
+          python - <<'PY'
+          import sys
+          import fastapi, pandas, numpy, cv2, dlib, face_recognition, langchain, chromadb
+          import docling
+          print('Sanity OK on Ubuntu:', sys.version)
+          PY
+
+  build-windows:
+    name: Windows (Python 3.11)
+    runs-on: windows-latest
+    continue-on-error: true # dlib may require extra Visual C++ components; keep non-blocking
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install system dependencies
+        shell: powershell
+        run: |
+          choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System' --no-progress --yes
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Sanity imports
+        shell: bash
+        run: |
+          python - <<'PY'
+          import sys
+          import fastapi, pandas, numpy
+          try:
+            import dlib
+          except Exception as e:
+            print('dlib import warning on Windows:', e)
+          import cv2, face_recognition, langchain, chromadb
+          import docling
+          print('Sanity attempted on Windows:', sys.version)
+          PY

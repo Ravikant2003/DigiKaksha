@@ -5,6 +5,7 @@ pymongo
 pandas
 chromadb
 langchain_huggingface
+docling
 langchain_google_genai
 langchain_community
 jinja2
@@ -19,3 +20,5 @@ numpy
 cmake
 dlib
 face_recognition
+transformers
+sentence-transformers

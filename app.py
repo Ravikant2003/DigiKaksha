@@ -10,12 +10,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import subprocess
-from langchain.document_loaders import PyPDFDirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from dotenv import load_dotenv
+from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
+from docling.document_converter import DocumentConverter
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain import hub
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.documents import Document
 from langchain_core.runnables import RunnablePassthrough
 from langchain_google_genai import ChatGoogleGenerativeAI
 from starlette.middleware.sessions import SessionMiddleware
@@ -31,6 +33,9 @@ templates = Jinja2Templates(directory="templates")
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+# Load environment variables from .env
+load_dotenv()
+
 # Sample user credentials
 users = {
     '1DS22CS100': 'Gx#8dLpM2a',
@@ -43,16 +48,27 @@ client = MongoClient('mongodb://localhost:27017/')  # Adjust the connection stri
 db = client['education']  # Database name
 collection = db['students']  # Collection name
 
-# Initialize LangChain components , Add your API Keys
-LANGCHAIN_TRACING_V2 = ""
-GOOGLE_API_KEY = ""
+# Initialize LangChain components, load API Keys from environment
+LANGCHAIN_TRACING_V2 = os.getenv("LANGCHAIN_TRACING_V2", "")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+EMBED_MODEL_ID = os.getenv("EMBED_MODEL_ID", "Qwen/Qwen3-Embedding-0.6B")
 
-embeddings_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings_model = None
 path_db = "./VectorDB"
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", google_api_key=GOOGLE_API_KEY)
-prompt = hub.pull("rlm/rag-prompt")
+llm = None
+
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a helpful study assistant. Use the provided context to answer the user's question. If the answer isn't in the context, say you don't know.\n\nContext:\n{context}"),
+    ("human", "Question: {question}")
+])
 
 retriever = None
+
+def get_embeddings_model():
+    global embeddings_model
+    if embeddings_model is None:
+        embeddings_model = HuggingFaceEmbeddings(model_name=EMBED_MODEL_ID)
+    return embeddings_model
 
 def get_student_data():
     students_data = list(collection.find({}, {'_id': 0}))  # Exclude the MongoDB default _id field
@@ -62,15 +78,28 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content if hasattr(doc, 'page_content') else doc for doc in docs)
 
 def retrieve_and_format(query):
-    docs = retriever.get_relevant_documents(query)
+    # In LangChain 1.x, retrievers are Runnables; use .invoke instead of get_relevant_documents
+    docs = retriever.invoke(query)
     return format_docs(docs)
 
-rag_chain = (
-    {"context": retrieve_and_format, "question": RunnablePassthrough()}
-    | prompt
-    | llm
-    | StrOutputParser()
-)
+def get_llm():
+    global llm
+    if llm is None:
+        if not GOOGLE_API_KEY:
+            raise RuntimeError("GOOGLE_API_KEY is not set. Please set it in app.py before using the chatbot.")
+        # Initialize Google Gemini LLM lazily
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=GOOGLE_API_KEY)
+    return llm
+
+def get_rag_chain():
+    if retriever is None:
+        raise RuntimeError("Vector store not initialized. Upload PDFs at /upload first.")
+    return (
+        {"context": retrieve_and_format, "question": RunnablePassthrough()}
+        | prompt
+        | get_llm()
+        | StrOutputParser()
+    )
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
@@ -128,16 +157,32 @@ async def upload_file(request: StarletteRequest, file: UploadFile = File(...)):
     return RedirectResponse(url='/ask', status_code=status.HTTP_302_FOUND)
 
 def process_file(file_path):
+    """Process an uploaded file into the vector store using Docling for conversion and Markdown-aware chunking."""
     global retriever
-    loader = PyPDFDirectoryLoader(UPLOAD_FOLDER)
-    data_on_pdf = loader.load()
+
+    # Convert the uploaded file to Markdown using Docling
+    converter = DocumentConverter()
+    result = converter.convert(file_path)
+    markdown = result.document.export_to_markdown()
+    docs = [Document(page_content=markdown, metadata={"source": os.path.basename(file_path), "parser": "docling"})]
+
+    # Header-aware splitting for better semantic chunks
+    header_splitter = MarkdownHeaderTextSplitter(
+        headers_to_split_on=[("#", "h1"), ("##", "h2"), ("###", "h3")]
+    )
+    split_docs: list[Document] = []
+    for d in docs:
+        split_docs.extend(header_splitter.split_text(d.page_content))
+
+    # Further split long sections into manageable chunks
     text_splitter = RecursiveCharacterTextSplitter(
         separators=["\n\n", "\n", ". ", " ", ""],
         chunk_size=1000,
-        chunk_overlap=200
+        chunk_overlap=200,
     )
-    splits = text_splitter.split_documents(data_on_pdf)
-    vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings_model, persist_directory=path_db)
+    chunks = text_splitter.split_documents(split_docs)
+
+    vectorstore = Chroma.from_documents(documents=chunks, embedding=get_embeddings_model(), persist_directory=path_db)
     retriever = vectorstore.as_retriever()
 
 @app.get("/ask", response_class=HTMLResponse)
@@ -147,14 +192,20 @@ async def ask_page_get(request: StarletteRequest):
 @app.post("/ask", response_class=HTMLResponse)
 async def ask_page_post(request: StarletteRequest, question: str = Form(...)):
     if question:
-        response = rag_chain.invoke(question)
+        try:
+            response = get_rag_chain().invoke(question)
+        except RuntimeError as e:
+            return templates.TemplateResponse('ask.html', {"request": request, "question": question, "error": str(e)})
         return templates.TemplateResponse('ask.html', {"request": request, "question": question, "response": response})
     return templates.TemplateResponse('ask.html', {"request": request})
 
 @app.post("/ask_json")
 async def ask_json(request: StarletteRequest, question: str = Form(...)):
     if question:
-        response = rag_chain.invoke(question)
+        try:
+            response = get_rag_chain().invoke(question)
+        except RuntimeError as e:
+            return JSONResponse(content={'error': str(e)}, status_code=400)
         return JSONResponse(content={'response': response})
     return JSONResponse(content={'response': 'No question provided'})
 
