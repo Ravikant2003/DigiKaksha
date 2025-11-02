@@ -13,7 +13,7 @@ Built using OpenCV, this module enables automatic attendance tracking through fa
 The platform provides a graphical analysis of student performance by visualizing data such as marks and attendance. Graphs are generated using Matplotlib, offering insights into both individual and overall performance.
 
 ## **LangChain-Based Study Material Chatbot**
-Utilizing LangChain, a retriever-augmented generation (RAG) model, and the Google Gemini API, the chatbot helps students comprehend their notes or study materials. It supports querying uploaded PDFs and generates responses based on their content.
+Utilizing LangChain, a retriever-augmented generation (RAG) model, and the Google Gemini API, the chatbot helps students comprehend their notes or study materials. It supports querying uploaded PDFs and generates responses based on their content. The ingestion pipeline uses Docling to convert PDFs/Office docs to Markdown, performs header-aware and recursive chunking, then embeds with the Hugging Face model `Qwen/Qwen3-Embedding-0.6B` into a Chroma vector store (cosine similarity, persisted in `./VectorDB/`). The embedding model can be overridden via the `EMBED_MODEL_ID` environment variable; if you change it, delete `./VectorDB/` and re-upload to re-embed.
 
 ---
 
